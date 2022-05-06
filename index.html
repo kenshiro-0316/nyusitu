@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>入室許可書発行</title>
+  </head>
+  <body>
+    <h1>入室が許可されました</h1>
+    <h2>ノックをして入場ください。</h2>
+    <h4>©Kendea.com</h4>
+    <h4>ゆり入室禁止システム</h4>
+    <script type="text/javascript">
+  function kendea (){
+    var pass=prompt("パスワードを入力してください")
+    var password="1221"
+    if (pass==password) {
+      alert("入室が許可されました")
+
+    }else {
+      alert
+    }
+  }
+function first() {
+   var user = prompt("ユーザー名を入力してください");
+   if (user==false || user== null) {
+     alert("ユーザー名を入力してください")
+     first();
+   }else{
+
+   }
+   var pass=prompt("Welcom "+user+"様パスワードを入力してください")
+   var password="kendea1221"
+   if (pass==password) {
+     alert("ログインできました。")
+   }else{
+     alert("ログインできません")
+     first();
+   }
+}
+window.onload=first();
+</script>
+  </body>
+</html>
